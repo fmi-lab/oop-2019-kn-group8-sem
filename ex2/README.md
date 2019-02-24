@@ -6,3 +6,6 @@
 
 * Templates
   * https://www.geeksforgeeks.org/templates-cpp/
+
+
+https://www.geeksforgeeks.org/smart-pointers-cpp/
