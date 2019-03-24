@@ -39,7 +39,6 @@ public: // public functions. This is the interface of the class. The contract be
     char& operator[] (int index);
     const char& operator[] (int index) const;
 
-
     /*! Returns the length of the string, in terms of bytes.
         This is the number of actual bytes that conform the contents of the string, 
         which is not necessarily equal to its storage capacity.
