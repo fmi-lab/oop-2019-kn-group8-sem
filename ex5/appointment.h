@@ -36,6 +36,8 @@ class Person {
 
    public:
     Person(const std::string& name);
+   
+    std::string getName() const;
 };
 
 class Appointment {
