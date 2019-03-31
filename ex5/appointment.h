@@ -124,15 +124,15 @@ public:
 	}
 
 	void addParticipant(Person p) {
-        // create new array to help the new participant
-        int newParticipantsLength = this->participants_length + 1;
+       	 	// create new array to help the new participant
+        	int newParticipantsLength = this->participants_length + 1;
 		Person *newParticipants = new Person[newParticipantsLength];
-        // copy the old participants
+        	// copy the old participants
 		copy(newParticipants, this->participants, this->participants_length);
-        // add the new participant
+        	// add the new participant
 		newParticipants[newParticipantsLength - 1] = p;
 		delete []this->participants;
-		this->participants_length++;
+		this->participants_length = newParticipantsLength;
 		this->participants = newParticipants;
 	}
 
